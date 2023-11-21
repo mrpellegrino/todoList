@@ -1,0 +1,39 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:  column;
+  }
+  .tasklist {
+      padding-top: 4rem;
+      display: flex;
+      flex-direction: column;
+     
+  }
+  .info{
+      display: flex; 
+      width: 52rem;
+      height: 30px;
+      justify-content: space-between;
+      color: var(--blue);
+      font-weight: bold;
+  }
+
+  .info span {
+    background-color: var(--gray-500 );
+    border: 0.1rem var(--gray-500) solid;
+    border-left-width: 0.5rem;
+    border-right-width: 0.5rem;
+    width: 1rem;
+    border-radius: 1rem;
+
+
+  }
+  
+  
+  @media (max-width: 768px) {
+    html {
+      font-size: 87.5%;
+    }
+  
+  }

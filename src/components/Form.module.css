@@ -1,0 +1,56 @@
+.Form{
+    margin-top: -1.7rem ;
+    background: none;
+    height: 3.4rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.Form input {
+    color: var(--gray-300);
+    height: 3.4rem;
+    background-color: var(--gray-500);
+    border-radius: 8px;
+    border: solid var(--gray-800);
+    border-color: white;
+    width: 46rem;
+    padding: 1rem;
+    outline: none;
+}
+
+.Form input:not(:placeholder-shown) {
+    color: var(--gray-100);
+    
+    border: solid var(--puple-dark) 1px;
+
+}
+
+
+.Form button{
+    
+    width: 5.65rem;
+    height: 3.4rem;
+    margin-left:0.5rem ;
+    background-color: var(--blue-dark);
+    border: none;
+    border-radius: 8px;
+    color: var(--gray-100);
+    transition: 0.1s;
+}
+.Form button:hover{
+    background-color: var(--blue);
+}
+
+
+.Form button span{
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.Form button span svg{
+   margin-left: 0.2rem; 
+   stroke: var(--gray-100);
+   stroke-width: 10;
+}
+
