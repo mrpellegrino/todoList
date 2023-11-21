@@ -1,4 +1,4 @@
-import { Check, CheckCircle, Circle, Garage, Trash } from "@phosphor-icons/react";
+import { CheckCircle, Circle, Trash } from "@phosphor-icons/react";
 import styles from "../components/Task.module.css"
 
 
