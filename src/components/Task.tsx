@@ -13,10 +13,10 @@ export function Task(props:TaskProps)
     return(
         <div className={styles.task}>
             <div>
-            {props.did ? (<button> <CheckCircle /> </button>) : (<button> <Circle /> </button>)}
+            {props.did ? (<button> <CheckCircle weight="fill" className={styles.checked} /> </button>) : (<button> <Circle className={styles.unchecked} /> </button>)}
             <span>{props.title}</span>
             </div>
-            <button><Trash/></button>
+            <button className={styles['trash-button']}><Trash/></button>
         </div>
     )
 }

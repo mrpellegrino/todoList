@@ -43,7 +43,6 @@ export function App() {
                 key={task.key}
                 title={task.title}
                 did ={task.did}
-
               />
             )
           })}
